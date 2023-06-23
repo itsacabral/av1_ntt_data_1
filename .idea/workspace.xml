@@ -4,11 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc2f8743-cc82-4a6b-af89-da190bf58293" name="Changes" comment="" />
+    <list default="true" id="bc2f8743-cc82-4a6b-af89-da190bf58293" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/av1ntt/CenarioPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/av1ntt/CenarioStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/av1ntt/CenarioUteis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/av1ntt/tests/Cenario.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Cenario.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Cenario.feature" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GroovyConsoleState">
+    <option name="list">
+      <list>
+        <Entry>
+          <option name="moduleName" value="av1_ntt_data_1" />
+          <option name="url" value="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console.groovy" />
+        </Entry>
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/br/com/av1ntt/CenarioPage.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2RZPHlgRfLukRlONbZRzWRqhF17" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -19,9 +55,87 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/jcabrals/Desktop/Nova pasta/gccs-srv-automacao-cartoes-portalpj-web",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jcabrals\Desktop\av1_ntt_data_1\src\test\java\br\com\av1ntt\tests" />
+      <recent name="C:\Users\jcabrals\Desktop\av1_ntt_data_1\src\main\java\com\av1ntt" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Scenario: Buscar por vagas de PESSOA ENGENHEIRA DE DADOS (2)">
+    <configuration name="Scenario: Buscar por vagas de PESSOA ENGENHEIRA DE DADOS (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/java/br/com/av1ntt/Cenario.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="av1_ntt_data_1" />
+      <option name="NAME_FILTER" value="^Buscar por vagas de PESSOA ENGENHEIRA DE DADOS$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Buscar por vagas de PESSOA ENGENHEIRA DE DADOS$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Buscar por vagas de PESSOA ENGENHEIRA DE DADOS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Buscar por vagas de PESSOA ENGENHEIRA DE DADOS (2)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/br/com/av1ntt/tests/Cenario.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="av1_ntt_data_1" />
+      <option name="NAME_FILTER" value="^Buscar por vagas de PESSOA ENGENHEIRA DE DADOS$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Buscar por vagas de PESSOA ENGENHEIRA DE DADOS$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Buscar por vagas de PESSOA ENGENHEIRA DE DADOS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Buscar por vagas de PESSOA ENGENHEIRA DE DADOS" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Cenario.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="av1_ntt_data_1" />
+      <option name="NAME_FILTER" value="^Buscar por vagas de PESSOA ENGENHEIRA DE DADOS$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Buscar por vagas de PESSOA ENGENHEIRA DE DADOS$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Buscar por vagas de PESSOA ENGENHEIRA DE DADOS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Scenario: Buscar por vagas de PESSOA ENGENHEIRA DE DADOS (2)" />
+        <item itemvalue="Cucumber Java.Scenario: Buscar por vagas de PESSOA ENGENHEIRA DE DADOS (1)" />
+        <item itemvalue="Cucumber Java.Scenario: Buscar por vagas de PESSOA ENGENHEIRA DE DADOS" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -32,5 +146,20 @@
       <updated>1687454546898</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
