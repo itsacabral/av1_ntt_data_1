@@ -6,7 +6,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.openqa.selenium.Dimension;
+import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -24,6 +24,7 @@ public class CenarioStep {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\jcabrals\\Desktop\\av1_ntt_data_1\\drivers\\chrome\\114.0.5735.90\\chromedriver.exe");
         ChromeOptions opc = new ChromeOptions();
         opc.addArguments("--incognito");
+        opc.setPageLoadStrategy(PageLoadStrategy.NORMAL);
         webdriver = new ChromeDriver(opc);
         pagina = PageFactory.initElements(webdriver, CenarioPage.class);
     }
@@ -39,7 +40,7 @@ public class CenarioStep {
     public void que_tenha_acessado_o_site_da_ntt() throws Throwable {
 
         webdriver.get(url);
-        webdriver.manage().window().setSize(new Dimension(1300, 800));
+        webdriver.manage().window().maximize();
         pagina.inserirPesquisa();
 
 
