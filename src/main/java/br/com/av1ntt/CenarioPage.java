@@ -46,6 +46,8 @@ public class CenarioPage {
     @FindBy(xpath = "//a[contains(text(),'Pessoa Engenheira de Dados - Híbrido')]")
     WebElement bntVagaPessoaEngenheiraDeDados;
 
+    @FindBy(xpath = "//*[@id=\"tableData_paginate\"]/span/a")
+    WebElement btnPaginaUm;
     @FindBy(id = "ifrmCookieBanner")
     WebElement frameCookiePgInicial;
 
@@ -92,8 +94,9 @@ public class CenarioPage {
     public void validavaga() throws Throwable {
         validaElemento(bntVagaPessoaEngenheiraDeDados, 5);
         new Actions(webDriver)
-                .scrollToElement(bntVagaPessoaEngenheiraDeDados)
+                .scrollToElement(btnPaginaUm)
                 .perform();
+        aguarda(3);
         click(bntVagaPessoaEngenheiraDeDados);
     }
 
